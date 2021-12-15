@@ -1,4 +1,10 @@
 
+
+body {
+    background: #d2d2c1 url(imagens/fundo.png);
+    font: 16px Arial, Helvetica, sans-serif;
+}
+
 .fundo {
     background-image: url(imagens/fundo.png);
 }
@@ -13,9 +19,16 @@
     font-size: 15px;
 }
 
+a {
+    color: #394a69;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
 .titulo {
     background-color: rgb(248, 241, 231);
-    font-size: 20px;
+    font-size: 1.2em;
     color: rgb(129, 119, 63);
     font-weight: 800;
     text-align: left;   
@@ -24,7 +37,7 @@
 
 .fundo-texto {
     background-color: rgb(248, 241, 231);
-    padding: 15px 15px;
+    padding: 18px 18px;
     width: 870px;
     text-align: center;    
     
@@ -41,7 +54,7 @@
 
 .imagens-campanhas {
     border-radius: 5px;
-    border: 8px solid rgb(215, 216, 178);    
+    border: 10px solid #c3c3ae;    
 
 }
 
@@ -49,6 +62,8 @@
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;  
+    text-align: left;
+    
 }
 
 .rodape {
