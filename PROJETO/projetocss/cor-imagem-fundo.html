@@ -1,25 +1,72 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-	<title>Cor e imagem de fundo</title>
-	<meta charset="utf-8">
-	
+    <title>Cor e imagem de fundo</title>
+    <meta charset="utf-8">
 
-	<style type="text/css" >
-		
-          
-	</style>
+
+    <style type="text/css">
+        /*
+    https://www.w3schools.com/css/css_background.asp
+
+        .fundo {
+            background-color: aqua;
+        }
+    */
+
+        body {
+            background-image: url('imagens/yoshi.png');
+
+            /*como vc quer a repeticao da imagem
+            repeat-x, repeat-y, no-repeat, repeat*/
+            background-repeat: no-repeat;
+
+            /*imagem fixa na tela, scroll=nao fica fixa, ela some junto com o conteudo quando rola a pagina, 
+            scrool, fixed*/
+            background-attachment: fixed;
+
+            /* posicao da imagem podendo definir left e right, sendo o primeiro na horizontal e o segundo na vertical
+            primeiro valor: left, center, right
+            segundo valor: top, center, bottom*/
+            background-position: left center;
+
+        }
+
+
+        .fundo {
+            background: rgb(206, 176, 214) url('imagens/yoshi.png') no-repeat scroll left center;
+        }
+    </style>
 
 
 </head>
 
-<body>     
+<body class="fundo">
 
+    <h1>Conteúdo de título 1</h1>
+
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s,
+        when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+        only five centuries, but also the leap into
+        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+        Letraset sheets containing Lorem Ipsum passages,
+        and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     
-	
 
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+        standard dummy text ever since the 1500s, when an unknown
+        printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+        centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+        Lorem Ipsum passages, and more recently with desktop publishing
+        software like Aldus PageMaker including versions of Lorem Ipsum.
+
+    </p>
 
 </body>
 
