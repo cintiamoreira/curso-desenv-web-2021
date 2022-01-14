@@ -1,5 +1,10 @@
 /*modelo caixa
 
+
+padding - espaçamento interno dentro da caixa
+margin - espaçamento externo (por ex aplicar espaço entre 2 elementos)
+
+
 .conteudo {
     border: 1px solid red;
     padding-top: 20px;

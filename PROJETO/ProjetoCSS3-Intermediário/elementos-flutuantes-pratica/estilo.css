@@ -1,0 +1,30 @@
+
+body {
+	background: cadetblue;
+}
+
+#principal {
+	width: 920px;
+	
+}
+
+.noticia {
+	background: blueviolet;
+	padding: 5px;
+	width: 280px;
+	margin: 7px;
+	float: left;
+}
+
+.clear {
+	clear: both;
+}
+
+.imagens-galeria {
+	background: burlywood;
+	width: 280px;
+	padding: 5px;
+	margin: 7px;
+	float: left;
+	text-align: center;
+}
